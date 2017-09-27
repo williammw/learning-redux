@@ -10,8 +10,7 @@ import {bindActionCreators} from 'redux';
             <li key={book.title} className="list-group-item">{book.title}</li>
           );
       });
-  }
-  
+  }  
     render(){
         return (
                 <ul className="list-group col-sm-4" > 
